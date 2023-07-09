@@ -1,0 +1,24 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          'green': '#1BFF68',
+          'blue': '#0029D8',
+          'sky-blue': '#06ABF2',
+          'gray': '#D9D9D9',
+        }
+      },
+      fontFamily: {
+        'oxanium': ['Oxanium', 'cursive'],
+      },
+      backgroundImage: {
+        'hero-bg': "url('../img/hero.png')"
+      }
+    },
+  },
+  plugins: [],
+}
+
