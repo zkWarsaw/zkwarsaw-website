@@ -11,12 +11,12 @@ npm install
 Dev mode
 
 ```sh
-npm dev
+npm run dev
 ```
 
 Build
 
 ```sh
-npm build
+npm run build
 ```
 
