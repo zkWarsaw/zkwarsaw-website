@@ -696,20 +696,11 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.p-5 {
-  padding: 1.25rem;
-}
-.p-3 {
-  padding: 0.75rem;
-}
-.p-4 {
-  padding: 1rem;
-}
-.p-16 {
-  padding: 4rem;
-}
 .p-2 {
   padding: 0.5rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -758,6 +749,9 @@ video {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -895,10 +889,6 @@ video {
 
   .md\:flex {
     display: flex;
-  }
-
-  .md\:w-56 {
-    width: 14rem;
   }
 
   .md\:py-24 {
