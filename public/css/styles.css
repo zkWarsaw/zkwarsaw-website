@@ -512,6 +512,9 @@ video {
 .m-auto {
   margin: auto;
 }
+.m-4 {
+  margin: 1rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -620,6 +623,9 @@ video {
 }
 .w-3\/5 {
   width: 60%;
+}
+.w-3\/4 {
+  width: 75%;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -817,6 +823,12 @@ video {
 }
 .p-4 {
   padding: 1rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .px-10 {
   padding-left: 2.5rem;
@@ -1032,6 +1044,10 @@ video {
     width: 14rem;
   }
 
+  .sm\:w-2\/4 {
+    width: 50%;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1061,6 +1077,18 @@ video {
 
   .md\:h-2\/5 {
     height: 40%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
+  .md\:w-2\/6 {
+    width: 33.333333%;
   }
 
   .md\:p-8 {
