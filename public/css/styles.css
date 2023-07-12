@@ -500,6 +500,12 @@ video {
 .order-first {
   order: -9999;
 }
+.m-10 {
+  margin: 2.5rem;
+}
+.m-32 {
+  margin: 8rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -512,6 +518,18 @@ video {
 }
 .ml-auto {
   margin-left: auto;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-16 {
+  margin-top: 4rem;
+}
+.mt-14 {
+  margin-top: 3.5rem;
+}
+.mt-12 {
+  margin-top: 3rem;
 }
 .block {
   display: block;
@@ -575,6 +593,9 @@ video {
 }
 .w-1\/6 {
   width: 16.666667%;
+}
+.w-3\/5 {
+  width: 60%;
 }
 .max-w-3xl {
   max-width: 48rem;
@@ -680,6 +701,9 @@ video {
 .border-2 {
   border-width: 2px;
 }
+.border-4 {
+  border-width: 4px;
+}
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -687,6 +711,14 @@ video {
 .border-brand-gray {
   --tw-border-opacity: 1;
   border-color: rgb(217 217 217 / var(--tw-border-opacity));
+}
+.border-\[\#243c5a\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(36 60 90 / var(--tw-border-opacity));
+}
+.border-\[\#02DA49\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 218 73 / var(--tw-border-opacity));
 }
 .bg-\[\#002F4F\]\/80 {
   background-color: rgb(0 47 79 / 0.8);
@@ -746,6 +778,15 @@ video {
 }
 .p-5 {
   padding: 1.25rem;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-16 {
+  padding: 4rem;
+}
+.p-14 {
+  padding: 3.5rem;
 }
 .px-10 {
   padding-left: 2.5rem;
@@ -895,6 +936,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.contrast-150 {
+  --tw-contrast: contrast(1.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.contrast-50 {
+  --tw-contrast: contrast(.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.contrast-200 {
+  --tw-contrast: contrast(2);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .grayscale-40 {
   --tw-grayscale: grayscale(40%);
