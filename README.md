@@ -1,6 +1,6 @@
 # zkWarsaw website
 
-Tested with node 20
+Tested with node 20 and 16
 
 Install
 
