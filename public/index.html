@@ -32,7 +32,7 @@
 </script>
 
 <body class="font-oxanium">
-  <div class="bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden">
+  <div id="mainDIV" class="bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden">
     <header class="bg-black/40">
       <div class="max-w-[1200px] mx-auto flex items-center justify-between px-5 py-7 lg:py-4">
         <!-- <a class="block" href="#"> -->
@@ -40,7 +40,7 @@
           <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo">
         </a>
 
-        <div class="hidden lg:flex items-center text-white text-lg gap-6">
+        <div class="hidden md:flex items-center text-white text-lg gap-6">
           <!-- <a class="block lg:hover:text-brand-green transition ease-linear" href="https://www.zkwarsaw.dev/" target="_blank">Meetups</a> -->
           <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
 
@@ -51,45 +51,34 @@
           <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
             Meetups
           </button>
-          <!--
-
-            <a class="block lg:hover:text-brand-green transition ease-linear" href="#speaker">Become Speaker</a>
-            <a class="block lg:hover:text-brand-green transition ease-linear" href="#sponsors">Sponsors</a>
-            <a class="block lg:hover:text-brand-green transition ease-linear" href="#speaker">Speakers</a>
-            <a class="block lg:hover:text-brand-green transition ease-linear" href="#schedule">Schedule</a>
-          -->
         </div>
 
         <!-- hamburger btn -->
-        
-        <!-- <button class="toggleMenu lg:hidden">
+        <button class="toggleMenu md:hidden ">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 17H21V15H3V17Z" fill="white" />
             <path d="M3 9H21V7H3V9Z" fill="white" />
           </svg>
         </button>
-      </div> -->
+      </div>
    
     </header>
 
     <!-- mobile menu -->
     
 
-      <!-- <div
-      class="menu w-64 absolute top-0 right-0 z-50 bg-black text-white translate-x-full transition-all ease-linear pt-7 pb-12 px-5">
-      <button class="toggleMenu block ml-auto mb-16">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M6.34292 19.1421L19.0708 6.4142L17.6566 4.99998L4.92871 17.7279L6.34292 19.1421Z" fill="white" />
-          <path d="M4.92868 6.41421L17.6566 19.1421L19.0708 17.7279L6.3429 5L4.92868 6.41421Z" fill="white" />
-        </svg>
-      </button>
+      <div id="menu"
+      class="menu absolute right-0 z-50 bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden text-white translate-x-full transition ease-in-out delay-250 pt-7 pb-12 px-5 w-full h-full">
       <div class="flex flex-col items-center justify-center space-y-12">
-        <a class="block" href="#speaker">Become Speaker</a>
-        <a class="block" href="#sponsors">Sponsors</a>
-        <a class="block" href="#speaker">Speakers</a>
-        <a class="block" href="#schedule">Schedule</a>
+        <button id="mainBTN" onclick="showMain()" class="toggleMenu block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+          zkWarsaw
+        </button>
+
+        <button id="meetupsBTN" onclick="showMeetups()" class="toggleMenu block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+          Meetups
+        </button>
       </div>
-    </div> -->
+    </div>
 
    
     <!-- overlay -->
@@ -112,6 +101,72 @@
       </div>
     </section>
   </div>
+  
+
+<!-- MEETUPS SECTION -->
+
+<div id="meetupsDIV" class="hidden bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden">
+  <header class="bg-black/40">
+    <div class="max-w-[1200px] mx-auto flex items-center justify-between px-5 py-7 lg:py-4">
+        <a class="block cursor-pointer" onclick="showMain()">
+        <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo">
+      </a>
+
+      <div class="hidden md:flex items-center text-white text-lg gap-6">
+        <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+          zkWarsaw Day
+        </button>
+
+        <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+          Meetups
+        </button>
+      </div>
+
+      <!-- hamburger btn -->
+      <button class="toggleMenu md:hidden ">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 17H21V15H3V17Z" fill="white" />
+          <path d="M3 9H21V7H3V9Z" fill="white" />
+        </svg>
+      </button>
+    </div>
+ 
+  </header>
+
+  <!-- mobile menu -->
+  
+
+    <div id="menu"
+    class="menu absolute right-0 z-50 bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden text-white translate-x-full transition ease-in-out delay-250 pt-7 pb-12 px-5 w-full h-full">
+    <div class="flex flex-col items-center justify-center space-y-12">
+      <button id="mainBTN" onclick="showMain()" class="toggleMenu block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+        zkWarsaw
+      </button>
+
+      <button id="meetupsBTN" onclick="showMeetups()" class="toggleMenu block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+        Meetups
+      </button>
+    </div>
+  </div>
+
+ 
+  <!-- overlay -->
+  <div class="toggleMenu overlay hidden fixed inset-0 z-40">
+  </div>
+
+  <!-- hero -->
+  <section class="flex justify-center max-w-3xl mx-auto space-y-7 px-2 sm:px-5 pt-28 lg:pt-36 pb-52 lg:pb-60">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl text-center font-semibold pt-4">zkWarsaw Meetups</h1>
+  </section>
+</div>
+
+
+
+
+
+
+
+
 <section id="main-content">
   <!-- community -->
   <section class="bg-waves-bg aspect-video w-full bg-repeat bg-center bg-cover p-200">
@@ -537,7 +592,7 @@
 
 </section>
   <!-- Meetings -->
-  <section class="bg-white px-10 pb-16 hidden pt-10 " id="r-meetups">
+  <section class="bg-white px-10 pb-16 hidden pt-16" id="r-meetups">
     <h1 class="text-5xl pt-8 md:text-6xl lg:text-7xl text-center font-semibold mb-3">Recent Meetups</h1>
     <div class="grid grid-cols-1 w-full gap-4">
       <div class="mt-14 w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
@@ -619,7 +674,7 @@
 
 
   <div class="flex justify-center">
-    <button id="mainBTN" onclick="showMain()" class="hover:scale-110 block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full hover:shadow-lg">
+    <button onclick="showMain()" class="hover:scale-110 block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full hover:shadow-lg">
       zkWarsaw Day
     </button>
   </div>
@@ -678,22 +733,37 @@
     })
 
     function showMeetups(){
-    
       const getMainContent=document.getElementById("main-content")
       getMainContent.style.display="none"
+      document.getElementById('mainDIV').style.display="none"
       document.getElementById('r-meetups').style.display="block"
-      document.getElementById("meetupsBTN").style.backgroundColor="#06ABF2"
-      document.getElementById("mainBTN").style.backgroundColor="transparent"
+      document.getElementById('meetupsDIV').style.display="block"
+
+
+      document.querySelectorAll("#meetupsBTN").forEach((btn)=>{
+      btn.style.backgroundColor="#06ABF2"
+      })
+      document.querySelectorAll("#mainBTN").forEach((btn)=>{
+      btn.style.backgroundColor="transparent"
+      })
 
     }
 
     function showMain(){
       document.getElementById('r-meetups').style.display="none"
+      document.getElementById('meetupsDIV').style.display="none"
       const getMainContent=document.getElementById("main-content")
       getMainContent.style.display="block"
-      document.body.scrollTop = document.documentElement.scrollTop = 0
-      document.getElementById("mainBTN").style.backgroundColor="#06ABF2"
-      document.getElementById("meetupsBTN").style.backgroundColor="transparent"
+      document.getElementById('mainDIV').style.display="block"
+      window.scrollTo({top:0,left:0,behavior:"instant"});
+
+
+      document.querySelectorAll("#meetupsBTN").forEach((btn)=>{
+      btn.style.backgroundColor="transparent"
+      })
+      document.querySelectorAll("#mainBTN").forEach((btn)=>{
+      btn.style.backgroundColor="#06ABF2"
+      })
     }
   </script>
 </body>
