@@ -42,7 +42,15 @@
 
         <div class="hidden lg:flex items-center text-white text-lg gap-10">
           <!-- <a class="block lg:hover:text-brand-green transition ease-linear" href="https://www.zkwarsaw.dev/" target="_blank">Meetups</a> -->
-          <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a>
+          <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
+
+          <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] hover:border-transparent rounded-full">
+            Home
+          </button>
+
+          <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] hover:border-transparent rounded-full">
+            Meetups
+          </button>
           <!--
 
             <a class="block lg:hover:text-brand-green transition ease-linear" href="#speaker">Become Speaker</a>
@@ -664,6 +672,9 @@
       getMainContent.style.display="none"
       document.getElementById('r-meetups').style.display="block"
       document.getElementById('r-meetups').scrollIntoView();
+      document.getElementById("meetupsBTN").style.backgroundColor="#06ABF2"
+      document.getElementById("mainBTN").style.backgroundColor="transparent"
+
     }
 
     function showMain(){
@@ -671,7 +682,8 @@
       const getMainContent=document.getElementById("main-content")
       getMainContent.style.display="block"
       getMainContent.scrollIntoView();
-
+      document.getElementById("mainBTN").style.backgroundColor="#06ABF2"
+      document.getElementById("meetupsBTN").style.backgroundColor="transparent"
     }
   </script>
 </body>
