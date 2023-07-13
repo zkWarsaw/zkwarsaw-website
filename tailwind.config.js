@@ -15,10 +15,16 @@ module.exports = {
         'oxanium': ['Oxanium', 'cursive'],
       },
       backgroundImage: {
-        'hero-bg': "url('../img/hero.png')"
-      }
+        'hero-bg': "url('../img/hero.png')",
+        "waves-bg": "url('../img/layered-waves-haikei.svg')",
+        "waves-bg-upsd": "url('../img/layered-waves-haikei-upsd.svg')",
+      },
+      grayscale: {
+        80: "80%",
+        40: "40%",
+        20: "20%",
+      },
     },
   },
   plugins: [],
 }
-
