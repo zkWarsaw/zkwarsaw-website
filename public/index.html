@@ -44,11 +44,11 @@
           <!-- <a class="block lg:hover:text-brand-green transition ease-linear" href="https://www.zkwarsaw.dev/" target="_blank">Meetups</a> -->
           <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
 
-          <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
-            Home
+          <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+            zkWarsaw Day
           </button>
 
-          <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
+          <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
             Meetups
           </button>
           <!--
@@ -58,26 +58,24 @@
             <a class="block lg:hover:text-brand-green transition ease-linear" href="#speaker">Speakers</a>
             <a class="block lg:hover:text-brand-green transition ease-linear" href="#schedule">Schedule</a>
           -->
-          <a class="block text-black bg-brand-green rounded-full lg:hover:bg-opacity-80 transition-all ease-linear py-4 px-8"
-            href="https://pretix.eu/zkwarsaw.dev/day/" target="_blank">Tickets</a>
         </div>
 
         <!-- hamburger btn -->
-        <!--
-        <button class="toggleMenu lg:hidden">
+        
+        <!-- <button class="toggleMenu lg:hidden">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 17H21V15H3V17Z" fill="white" />
             <path d="M3 9H21V7H3V9Z" fill="white" />
           </svg>
         </button>
-      </div>
-    -->
+      </div> -->
+   
     </header>
 
     <!-- mobile menu -->
-    <!--
+    
 
-      <div
+      <!-- <div
       class="menu w-64 absolute top-0 right-0 z-50 bg-black text-white translate-x-full transition-all ease-linear pt-7 pb-12 px-5">
       <button class="toggleMenu block ml-auto mb-16">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,9 +89,9 @@
         <a class="block" href="#speaker">Speakers</a>
         <a class="block" href="#schedule">Schedule</a>
       </div>
-    </div>
+    </div> -->
 
-    -->
+   
     <!-- overlay -->
     <div class="toggleMenu overlay hidden fixed inset-0 z-40">
     </div>
@@ -542,9 +540,9 @@
   <section class="bg-white px-10 pb-16 hidden pt-10 " id="r-meetups">
     <h1 class="text-5xl pt-8 md:text-6xl lg:text-7xl text-center font-semibold mb-3">Recent Meetups</h1>
     <div class="grid grid-cols-1 w-full gap-4">
-      <div class="mt-14 w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+      <div class="mt-14 w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
             <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-8">Implementing elliptic curves</h1>
-            <div class=" flex flex-col sm:flex-row justify-between">
+            <div class="flex flex-row justify-center">
               <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">6 June 2023
         </p>
         <p class="inline-block  text-2xl lg:text-3xl font-medium px-4 italic">Marek Kirejczyk
@@ -552,9 +550,9 @@
               </div>
   
       </div>
-      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
         <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-8">Kate-Zaverucha-Goldberg (KZG) polynomial commitment scheme</h1>
-        <div class=" flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-row justify-center">
           <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">6 June 2023
     </p>
     <p class="inline-block  text-2xl lg:text-3xl font-medium px-4 italic">Marek Kirejczyk
@@ -564,9 +562,8 @@
       </div>
       <!--  -->
       
-      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
         <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-8">Recap and insights from zkLisbon</h1>
-        
           <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">13 Apr 2023
     </p>
           
@@ -575,10 +572,10 @@
   <!--  -->
       <!--  -->
       
-      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+      <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
   
         <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-8">Scaling Ethereum with zkRollups</h1>
-        <div class=" flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-row justify-center">
           <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">9 Mar 2023
     </p>
     <p class="inline-block  text-2xl lg:text-3xl font-medium px-4 italic">Orest Tarasiuk
@@ -588,10 +585,10 @@
   </div>
   <!--  -->    <!--  -->
       
-  <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+  <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
   
         <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-8">Intro to SNARKs, part II</h1>
-        <div class=" flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-row justify-center">
           <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">31 Jan 2023
     </p>
     <p class="inline-block  text-2xl lg:text-3xl font-medium px-4 italic">Michał Zając
@@ -601,10 +598,10 @@
   </div>
   <!--  -->    <!--  -->
       
-  <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center hover:shadow-lg transition-all ease-linear border border-[#1BFF68]">
+  <div class="w-full max-w-4xl mx-auto py-10 md:py-14 lg:py-20 px-5 text-center transition-all ease-linear border border-[#1BFF68]">
   
         <h1 class="text-2xl md:text-3xl lg:text-4xl text-brand-green font-semibold mb-5">Intro to SNARKs, part I</h1>
-        <div class=" flex flex-col sm:flex-row justify-between">
+        <div class="flex flex-row justify-center">
           <p class="inline-block  text-2xl lg:text-3xl font-medium px-4">2 Jan 2023
     </p>
     <p class="inline-block  text-2xl lg:text-3xl font-medium px-4 italic">Michał Zając
@@ -613,9 +610,19 @@
   
   </div>
   <!--  -->
+        
+
+
+
+  <div class="flex justify-center">
+    <button id="mainBTN" onclick="showMain()" class="hover:scale-110 block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full hover:shadow-lg">
+      zkWarsaw Day
+    </button>
+  </div>
+
+
     </div>
-  
-  
+ 
   
   </section>
 
@@ -671,7 +678,6 @@
       const getMainContent=document.getElementById("main-content")
       getMainContent.style.display="none"
       document.getElementById('r-meetups').style.display="block"
-      document.getElementById('r-meetups').scrollIntoView();
       document.getElementById("meetupsBTN").style.backgroundColor="#06ABF2"
       document.getElementById("mainBTN").style.backgroundColor="transparent"
 
@@ -681,7 +687,7 @@
       document.getElementById('r-meetups').style.display="none"
       const getMainContent=document.getElementById("main-content")
       getMainContent.style.display="block"
-      getMainContent.scrollIntoView();
+      document.body.scrollTop = document.documentElement.scrollTop = 0
       document.getElementById("mainBTN").style.backgroundColor="#06ABF2"
       document.getElementById("meetupsBTN").style.backgroundColor="transparent"
     }
