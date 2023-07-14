@@ -85,12 +85,12 @@
         <div class="flex justify-center">
           <ul>
             <li class="mb-1">
-              <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+              <button id="mainBTN" onclick="showMain()" class="navbar-close  block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
                 zkWarsaw Day
               </button>
             </li>
             <li class="mb-1">
-              <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+              <button id="meetupsBTN" onclick="showMeetups()" class="navbar-close  block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
                 Meetups
               </button>
             </li>
@@ -173,12 +173,12 @@
           <div class="flex justify-center">
             <ul>
               <li class="mb-1">
-                <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                <button id="mainBTN" onclick="showMain()" class="navbar-close  block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
                   zkWarsaw Day
                 </button>
               </li>
               <li class="mb-1">
-                <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                <button id="meetupsBTN" onclick="showMeetups()" class="navbar-close  block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
                   Meetups
                 </button>
               </li>
@@ -806,8 +806,6 @@
       document.getElementById('mainDIV').style.display="none"
       document.getElementById('r-meetups').style.display="block"
       document.getElementById('meetupsDIV').style.display="block"
-
-
       document.querySelectorAll("#meetupsBTN").forEach((btn)=>{
       btn.style.backgroundColor="#06ABF2"
       })
