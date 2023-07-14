@@ -54,37 +54,55 @@
         </div>
 
         <!-- hamburger btn -->
-        <button class="toggleMenu md:hidden ">
+        <div class="md:hidden">
+        <button class="navbar-burger">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 17H21V15H3V17Z" fill="white" />
             <path d="M3 9H21V7H3V9Z" fill="white" />
           </svg>
         </button>
       </div>
+      </div>
    
     </header>
 
     <!-- mobile menu -->
-    
+  
+    <div class="navbar-menu relative z-50 hidden">
+      <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+      <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+        <div class="flex items-center mb-8">
+          <a class="mr-auto text-3xl font-bold leading-none" href="#">
+            <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo">
 
-      <div id="menu"
-      class="menu absolute right-0 z-50 bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden text-white translate-x-full transition ease-in-out delay-250 pt-7 pb-12 px-5 w-full h-full">
-      <div class="flex flex-col items-center justify-center space-y-12">
-        <button id="mainBTN" onclick="showMain()" class="toggleMenu block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
-          zkWarsaw
-        </button>
-
-        <button id="meetupsBTN" onclick="showMeetups()" class="toggleMenu block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
-          Meetups
-        </button>
-      </div>
+          </a>
+          <button class="navbar-close">
+            <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="flex justify-center">
+          <ul>
+            <li class="mb-1">
+              <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                zkWarsaw Day
+              </button>
+            </li>
+            <li class="mb-1">
+              <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                Meetups
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-auto">
+          <p class="my-4 text-xs text-center text-gray-400">
+            <span>Copyright © 2023</span>
+          </p>
+        </div>
+      </nav>
     </div>
-
-   
-    <!-- overlay -->
-    <div class="toggleMenu overlay hidden fixed inset-0 z-40">
-    </div>
-
     <!-- hero -->
     <section class="max-w-3xl mx-auto space-y-7 px-2 sm:px-5 pt-28 lg:pt-36 pb-52 lg:pb-60">
       <h1 class="text-5xl md:text-6xl lg:text-7xl text-center font-semibold">zkWarsaw Day</h1>
@@ -122,38 +140,57 @@
         </button>
       </div>
 
-      <!-- hamburger btn -->
-      <button class="toggleMenu md:hidden ">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 17H21V15H3V17Z" fill="white" />
-          <path d="M3 9H21V7H3V9Z" fill="white" />
-        </svg>
-      </button>
-    </div>
- 
-  </header>
-
-  <!-- mobile menu -->
+   
+        <!-- hamburger btn -->
+        <div class="md:hidden">
+          <button class="navbar-burger">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 17H21V15H3V17Z" fill="white" />
+              <path d="M3 9H21V7H3V9Z" fill="white" />
+            </svg>
+          </button>
+        </div>
+        </div>
+     
+      </header>
   
-
-    <div id="menu"
-    class="menu absolute right-0 z-50 bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden text-white translate-x-full transition ease-in-out delay-250 pt-7 pb-12 px-5 w-full h-full">
-    <div class="flex flex-col items-center justify-center space-y-12">
-      <button id="mainBTN" onclick="showMain()" class="toggleMenu block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
-        zkWarsaw
-      </button>
-
-      <button id="meetupsBTN" onclick="showMeetups()" class="toggleMenu block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full">
-        Meetups
-      </button>
-    </div>
-  </div>
-
- 
-  <!-- overlay -->
-  <div class="toggleMenu overlay hidden fixed inset-0 z-40">
-  </div>
-
+      <!-- mobile menu -->
+    
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+          <div class="flex items-center mb-8">
+            <a class="mr-auto text-3xl font-bold leading-none" href="#">
+              <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo">
+  
+            </a>
+            <button class="navbar-close">
+              <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="flex justify-center">
+            <ul>
+              <li class="mb-1">
+                <button id="mainBTN" onclick="showMain()" class="block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                  zkWarsaw Day
+                </button>
+              </li>
+              <li class="mb-1">
+                <button id="meetupsBTN" onclick="showMeetups()" class="block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border border-[#06ABF2] rounded-full w-full">
+                  Meetups
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-auto">
+            <p class="my-4 text-xs text-center text-gray-400">
+              <span>Copyright © 2023</span>
+            </p>
+          </div>
+        </nav>
+      </div>
   <!-- hero -->
   <section class="flex justify-center max-w-3xl mx-auto space-y-7 px-2 sm:px-5 pt-28 lg:pt-36 pb-52 lg:pb-60">
       <h1 class="text-5xl md:text-6xl lg:text-7xl text-center font-semibold pt-4">zkWarsaw Meetups</h1>
@@ -723,14 +760,45 @@
   </footer>
 
   <script>
-    document.querySelectorAll('.toggleMenu').forEach((btn) => {
-      if (btn) {
-        btn.addEventListener('click', () => {
-          document.querySelector('.menu').classList.toggle('translate-x-full')
-          document.querySelector('.overlay').classList.toggle('hidden')
-        })
-      }
-    })
+    // Burger menus
+    document.addEventListener('DOMContentLoaded', function() {
+    // open
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    // close
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }})
 
     function showMeetups(){
       const getMainContent=document.getElementById("main-content")
