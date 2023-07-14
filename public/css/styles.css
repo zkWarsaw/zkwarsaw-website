@@ -891,6 +891,18 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
+.pb-28 {
+  padding-bottom: 7rem;
+}
+.pt-32 {
+  padding-top: 8rem;
+}
+.pb-36 {
+  padding-bottom: 9rem;
+}
+.pt-36 {
+  padding-top: 9rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1170,6 +1182,10 @@ video {
 
   .lg\:pt-36 {
     padding-top: 9rem;
+  }
+
+  .lg\:pt-28 {
+    padding-top: 7rem;
   }
 
   .lg\:text-3xl {
