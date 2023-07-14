@@ -903,6 +903,9 @@ video {
 .pt-36 {
   padding-top: 9rem;
 }
+.pb-20 {
+  padding-bottom: 5rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1057,6 +1060,14 @@ video {
   .sm\:pb-0 {
     padding-bottom: 0px;
   }
+
+  .sm\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .sm\:pt-20 {
+    padding-top: 5rem;
+  }
 }
 @media (min-width: 768px) {
 
@@ -1088,6 +1099,14 @@ video {
 
   .md\:pt-1 {
     padding-top: 0.25rem;
+  }
+
+  .md\:pb-36 {
+    padding-bottom: 9rem;
+  }
+
+  .md\:pt-36 {
+    padding-top: 9rem;
   }
 
   .md\:text-center {
