@@ -888,6 +888,15 @@ video {
 .pt-4 {
   padding-top: 1rem;
 }
+.pt-16 {
+  padding-top: 4rem;
+}
+.pt-14 {
+  padding-top: 3.5rem;
+}
+.pb-28 {
+  padding-bottom: 7rem;
+}
 .text-center {
   text-align: center;
 }
