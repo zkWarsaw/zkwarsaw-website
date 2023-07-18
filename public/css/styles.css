@@ -693,9 +693,6 @@ video {
 .border-2 {
   border-width: 2px;
 }
-.border-0 {
-  border-width: 0px;
-}
 .border-r {
   border-right-width: 1px;
 }
