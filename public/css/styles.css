@@ -524,6 +524,26 @@ video {
   margin-left: 16rem;
   margin-right: 16rem;
 }
+.mx-28 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.mx-36 {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-44 {
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1050,6 +1070,20 @@ video {
     margin-right: 0.5rem;
   }
 }
+@media (max-width: 600px) {
+
+  .max-\[600px\]\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+@media (max-width: 550px) {
+
+  .max-\[550px\]\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
 @media (max-width: 500px) {
 
   .max-\[500px\]\:mx-12 {
@@ -1062,6 +1096,24 @@ video {
   .max-\[350px\]\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+@media (max-width: 315px) {
+
+  .max-\[315px\]\:flex-col {
+    flex-direction: column;
+  }
+}
+@media (max-width: 280px) {
+
+  .max-\[280px\]\:flex-col {
+    flex-direction: column;
+  }
+}
+@media (min-width: 280px) {
+
+  .min-\[280px\]\:flex-col {
+    flex-direction: column;
   }
 }
 @media (min-width: 400px) {
@@ -1103,6 +1155,13 @@ video {
 
   .sm\:pb-0 {
     padding-bottom: 0px;
+  }
+}
+@media (min-width: 650px) {
+
+  .min-\[650px\]\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (min-width: 767px) {
@@ -1154,6 +1213,11 @@ video {
     padding-bottom: 6rem;
   }
 
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:pb-36 {
     padding-bottom: 9rem;
   }
@@ -1172,6 +1236,14 @@ video {
 
   .md\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .md\:pb-6 {
+    padding-bottom: 1.5rem;
   }
 
   .md\:text-center {
@@ -1297,6 +1369,11 @@ video {
     padding-bottom: 4rem;
   }
 
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pb-14 {
     padding-bottom: 3.5rem;
   }
@@ -1319,6 +1396,18 @@ video {
 
   .lg\:pt-36 {
     padding-top: 9rem;
+  }
+
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .lg\:text-3xl {
