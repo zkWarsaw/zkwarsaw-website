@@ -395,7 +395,9 @@
                 >
                     <div class="max-w-4xl mx-auto pb-4 md:pb-6 lg:pb-10 px-5">
                         <h3 class="text-4xl lg:text-5xl text-center text-white">
-                            Event for ZKP researchers, hackers, and builders. Learn all about zero-knowledge proofs through three focussed blocks of lectures and workshops.
+                            Event for ZKP researchers, hackers, and builders.
+                            Learn all about zero-knowledge proofs through three
+                            focussed blocks of lectures and workshops.
                         </h3>
                     </div>
                     <div
@@ -1160,15 +1162,141 @@
                     <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo" />
                 </a>
 
+                <!-- Modal -->
+                <div class="hidden" id="modal">
+                    <div
+                        class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+                    ></div>
+
+                    <div class="fixed inset-0 z-10 overflow-y-auto">
+                        <div
+                            class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+                        >
+                            <div
+                                class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg"
+                            >
+                                <div
+                                    class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4"
+                                >
+                                    <div class="sm:flex sm:items-start">
+                                        <div
+                                            class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left"
+                                        >
+                                            <div
+                                                class="flex flex-row justify-between pb-2"
+                                            >
+                                                <h2 class="text-gray-800">
+                                                    Media policy
+                                                </h2>
+
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    fill="none"
+                                                    viewBox="0 0 24 24"
+                                                    stroke-width="1.5"
+                                                    stroke="currentColor"
+                                                    class="w-4 h-4 cursor-pointer fill-current text-slate-500 hover:text-slate-900"
+                                                    onclick="hideModal()"
+                                                >
+                                                    <path
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round"
+                                                        d="M6 18L18 6M6 6l12 12"
+                                                    />
+                                                </svg>
+                                            </div>
+
+                                            <div class="mt-2">
+                                                <p
+                                                    class="text-sm text-gray-500"
+                                                >
+                                                    The subsequent terms and
+                                                    conditions pertain to all
+                                                    individuals participating in
+                                                    our in-person events.
+                                                    <br />
+                                                    Photography, Audio, and
+                                                    Video Recording
+                                                    <br />
+
+                                                    By attending the ZK Warsaw
+                                                    event, you explicitly
+                                                    acknowledge and consent that
+                                                    the event (or any segment
+                                                    thereof) may be subject to
+                                                    photographic or audiovisual
+                                                    recording by us or our
+                                                    partners. You agree to
+                                                    authorize us or any duly
+                                                    licensed third party, as per
+                                                    our discretion, to utilize,
+                                                    distribute, broadcast, or
+                                                    otherwise globally
+                                                    disseminate your likeness,
+                                                    name, voice, and statements
+                                                    perpetually through
+                                                    television, radio, film,
+                                                    newspapers, magazines, and
+                                                    any other existing or future
+                                                    media platforms, both prior
+                                                    to, during, and subsequent
+                                                    to the Conference, in any
+                                                    format, without
+                                                    necessitating any further
+                                                    consent or remuneration from
+                                                    you. This grant includes but
+                                                    is not limited to, the right
+                                                    to edit the media, the right
+                                                    to use the media (alone or
+                                                    with other information), and
+                                                    the right to allow others to
+                                                    use or distribute the media.
+                                                    Moreover, ZK Warsaw
+                                                    Conference cannot assume any
+                                                    liability for photographs,
+                                                    videos, or audio recordings
+                                                    taken by other event
+                                                    attendees. Should you have
+                                                    any inquiries concerning
+                                                    this policy, please do not
+                                                    hesitate to contact us at
+                                                    day@zkwarsaw.dev
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 justify-center"
+                                >
+                                    <button
+                                        type="button"
+                                        class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                                        onclick="hideModal()"
+                                    >
+                                        Got it!
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div
-                    class="order-first sm:order-last flex max-[315px]:flex-col items-center gap-10 pb-14 sm:pb-0"
+                    class="order-first sm:order-last flex max-[395px]:flex-col items-center gap-10 pb-14 sm:pb-0"
                 >
+                    <button
+                        onclick="showModal()"
+                        class="text-lg lg:hover:text-brand-green transition ease-linear"
+                    >
+                        Media policy
+                    </button>
+
                     <a
                         class="text-lg lg:hover:text-brand-green transition ease-linear"
                         href="mailto:day@zkwarsaw.dev"
                         >Contact Us</a
                     >
-
                     <!-- facebook -->
 
                     <a
@@ -1321,6 +1449,14 @@
                 document.querySelectorAll('#mainBTN').forEach((btn) => {
                     btn.style.backgroundColor = '#06ABF2'
                 })
+            }
+
+            const modal = document.getElementById('modal')
+            function showModal() {
+                modal.style.display = 'block'
+            }
+            function hideModal() {
+                modal.style.display = 'none'
             }
         </script>
     </body>
