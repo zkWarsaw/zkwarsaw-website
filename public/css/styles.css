@@ -868,6 +868,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(82 82 82 / var(--tw-bg-opacity));
 }
+.bg-\[\#1f1f1f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
+}
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
 }
@@ -897,6 +901,12 @@ video {
 }
 .fill-current {
   fill: currentColor;
+}
+.stroke-white {
+  stroke: #fff;
+}
+.stroke-brand-green {
+  stroke: #1BFF68;
 }
 .object-cover {
   -o-object-fit: cover;
