@@ -1019,6 +1019,9 @@ video {
 .pt-24 {
   padding-top: 6rem;
 }
+.pt-6 {
+  padding-top: 1.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1497,7 +1500,6 @@ video {
   .lg\:pb-40 {
     padding-bottom: 10rem;
   }
-
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
