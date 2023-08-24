@@ -564,6 +564,12 @@ video {
 .mt-px {
   margin-top: 1px;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
+.mt-auto {
+  margin-top: auto;
+}
 .block {
   display: block;
 }
@@ -597,6 +603,18 @@ video {
 .h-6 {
   height: 1.5rem;
 }
+.h-52 {
+  height: 13rem;
+}
+.h-40 {
+  height: 10rem;
+}
+.h-48 {
+  height: 12rem;
+}
+.h-44 {
+  height: 11rem;
+}
 .min-h-\[16px\] {
   min-height: 16px;
 }
@@ -629,6 +647,15 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-52 {
+  width: 13rem;
+}
+.w-40 {
+  width: 10rem;
+}
+.w-48 {
+  width: 12rem;
 }
 .min-w-\[16px\] {
   min-width: 16px;
@@ -987,6 +1014,9 @@ video {
 .pb-28 {
   padding-bottom: 7rem;
 }
+.pb-36 {
+  padding-bottom: 9rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1034,6 +1064,12 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 .text-left {
   text-align: left;
@@ -1228,6 +1264,24 @@ video {
     margin-right: 3rem;
   }
 }
+@media (max-width: 515px) {
+
+  .max-\[515px\]\:flex-col {
+    flex-direction: column;
+  }
+}
+@media (max-width: 510px) {
+
+  .max-\[510px\]\:flex-row {
+    flex-direction: row;
+  }
+}
+@media (max-width: 485px) {
+
+  .max-\[485px\]\:flex-col {
+    flex-direction: column;
+  }
+}
 @media (max-width: 395px) {
 
   .max-\[395px\]\:flex-col {
@@ -1284,6 +1338,10 @@ video {
     max-width: 32rem;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1336,6 +1394,10 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:order-last {
+    order: 9999;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1349,16 +1411,23 @@ video {
     display: none;
   }
 
+  .md\:h-52 {
+    height: 13rem;
+  }
+
   .md\:w-2\/6 {
     width: 33.333333%;
   }
-
   .md\:w-\[720px\] {
     width: 720px;
   }
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:p-8 {
@@ -1501,6 +1570,10 @@ video {
     padding-bottom: 7rem;
   }
 
+  .lg\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
   .lg\:pb-60 {
     padding-bottom: 15rem;
   }
@@ -1591,8 +1664,16 @@ video {
     height: 10rem;
   }
 
+  .xl\:h-52 {
+    height: 13rem;
+  }
+
   .xl\:w-40 {
     width: 10rem;
+  }
+
+  .xl\:w-52 {
+    width: 13rem;
   }
 
   .xl\:gap-16 {
