@@ -1258,6 +1258,16 @@ video {
     flex-direction: column;
   }
 }
+@media (max-width: 460px) {
+
+  .max-\[460px\]\:flex-row {
+    flex-direction: row;
+  }
+
+  .max-\[460px\]\:flex-col {
+    flex-direction: column;
+  }
+}
 @media (max-width: 395px) {
 
   .max-\[395px\]\:flex-col {
@@ -1690,4 +1700,7 @@ video {
   .xl\:pt-20 {
     padding-top: 5rem;
   }
+}
+.\[\&\:\:-webkit-details-marker\]\:hidden::-webkit-details-marker {
+  display: none;
 }
