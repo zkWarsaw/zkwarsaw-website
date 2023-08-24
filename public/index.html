@@ -1020,6 +1020,8 @@
                             >
                                 Key derivation in StarkEx
                             </h5>
+                            <p class="pb-4">Because StarkEx uses the Stark curve for cryptography, regular Ethereum ECDSA no longer works. We'll dive deep into how StarkWare and it's clients solved this problem in StarkEx deployments.</p>
+
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1053,6 +1055,10 @@
                             >
                                 ZK and law for devs
                             </h5>
+                            <p class="pb-4">
+                                I will highlight the legal challenges of using ZK tech by devs. Privacy, scalability, security, and data integrity achieved with ZK proofs will generate legal conundrums that should be well understood before implementing particular solutions.
+                            </p>
+
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1087,6 +1093,9 @@
                                 ZKM: Turning Ethereum into the global
                                 settlement layer
                             </h5>
+                            <p class="pb-4">
+                                Zkvm and its potential role in making Ethereum the global settlement layer. What does it mean for Ethereum to be the global settlement layer.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1135,6 +1144,9 @@
                             >
                                 Storage Proofs
                             </h5>
+                            <p class="pb-4">
+                                How validity proofs combined with storage proofs unlock the true power of onchain vms
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1169,6 +1181,9 @@
                                 Putting the "Proofs" in "ZK Proofs": Formal
                                 verification of arithmetic circuits
                             </h5>
+                            <p class="pb-4">
+                                Writing arithmetic circuits for ZK proofs poses unique challenges for ensuring correctness. The style of building them is foreign to many developers, both in program structure and data representation. At the same time, their correctness is paramount to the security of many protocols. This talk will present some applications of formal verification tools for improving security of arithmetic circuits.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1203,6 +1218,9 @@
                                 ZK: Scaling ETH "infinitely" without UX &
                                 liquidity fragmentation
                             </h5>
+                            <p class="pb-4">
+                                By harnessing ZK, common bridges, shared sequencers & other cutting edge advancements, we can scale Ethereum using L2s & L3s while maintaining atomic composability and user experience, and avoiding fragmenting liquidity. Join us as we unlock the potential of Ethereum and reshape the blockchain landscape.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1236,6 +1254,9 @@
                             >
                                 Running Linux in ZK
                             </h5>
+                            <p class="pb-4">
+                                Presenting the work around running 64-bit RISC-V Linux inside a deterministic Cartesi Machine inside RiscZero proofs.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1284,6 +1305,9 @@
                             >
                                 Recent advances in pairing-based SNARKs
                             </h5>
+                            <p class="pb-4">
+                                We explain ideas from the past year and a half leveraging pairings to speed up SNARK provers; especially in the context of lookup protocols.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1319,6 +1343,9 @@
                                 Tip5: A hash function optimized for
                                 recursive STARKs
                             </h5>
+                            <p class="pb-4">
+                                In the context of recursive STARKs, standard hash function such as SHA3 and Blake3 are too expensive to arithmetize; and arithmetization-friendly hash functions like Rescue and Poseidon are too slow when evaluated on a CPU. Tip5 occupies the golden middle: it is somewhat arithmetization-friendly, but its design and performance are nonetheless more similar to standard hash functions than arithmetization-friendly ones.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1353,6 +1380,9 @@
                                 Halo2 applied to Ethereum ZK Rollup
                                 Equivalence
                             </h5>
+                            <p class="pb-4">
+                                Learn about zero knowledge rollup and Halo2 development
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1387,6 +1417,9 @@
                                 Zero-knowledge proof-based onchain private
                                 voting
                             </h5>
+                            <p class="pb-4">
+                                We describe an approach to onchain NFT-based private voting leveraging ZK-verified storage proofs. This is joint work with Aztec as part of Nouns DAO's private voting research sprint.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1437,6 +1470,9 @@
                                 Evmmax: EVM modular arithmetic extension
                                 implemented in evmone
                             </h5>
+                            <p class="pb-4">
+                                This EIP proposes the addition of new optimized modular addition, subtraction and multiplication opcodes to the EVM. These support odd moduli up to 4096 bits in size. We will talk about the initial implementation of evmmax in the evmone.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1487,6 +1523,9 @@
                             >
                                 A deep dive into zkML
                             </h5>
+                            <p class="pb-4">
+                                Exploring the zkML landscape: Learn what approches, tools and applications are currently prevalent in the space and what challenges they are facing.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1521,6 +1560,9 @@
                             >
                                 Parallelizing proving in rollups
                             </h5>
+                            <p class="pb-4">
+                                In zero-knowledge rollups, Provers perform a vital role of computing the validity proofs responsible for enforcing the correctness of the zkRU. However, since proof generation times are non-negligible, sequential proving results in limited throughput of the protocol. Parallelization solves the aforementioned issue by assigning different Provers with the right to compute the proofs in parallel. The talk will outline the rationale behind parallelization as well as the concrete details of how parallelization will work in practice.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
@@ -1554,6 +1596,9 @@
                             >
                                 Powdr: a modular stack for zkVMs
                             </h5>
+                            <p class="pb-4">
+                                We present powdr, an open source development stack for zkVMs. We go through some examples of VMs implementations in powdr and showcase the flexibility and performance of the framework as well as upcoming features.
+                            </p>
                             <div class="flex flex-row gap-6">
                                 <div class="flex items-center">
                                     <img
