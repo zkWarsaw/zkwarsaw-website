@@ -1433,6 +1433,10 @@ video {
     width: 33.333333%;
   }
 
+  .md\:w-\[720px\] {
+    width: 720px;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
