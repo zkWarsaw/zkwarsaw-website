@@ -1,254 +1,164 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!"
-        />
-        <title>zkWarsaw Day</title>
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://zkwarsaw.dev/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="zkWarsaw Day" />
-        <meta
-            property="og:description"
-            content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!"
-        />
-        <meta
-            property="og:image"
-            content="https://zkwarsaw.dev/img/twitter-logo@2x.png"
-        />
 
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="zkwarsaw.dev" />
-        <meta property="twitter:url" content="https://zkwarsaw.dev/" />
-        <meta name="twitter:title" content="zkWarsaw Day" />
-        <meta
-            name="twitter:description"
-            content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!"
-        />
-        <meta
-            name="twitter:image"
-            content="https://zkwarsaw.dev/img/twitter-logo@2x.png"
-        />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!" />
+    <title>zkWarsaw Day</title>
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://zkwarsaw.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="zkWarsaw Day" />
+    <meta property="og:description"
+        content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!" />
+    <meta property="og:image" content="https://zkwarsaw.dev/img/twitter-logo@2x.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Oxanium:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="https://use.typekit.net/szd0ivc.css" />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="zkwarsaw.dev" />
+    <meta property="twitter:url" content="https://zkwarsaw.dev/" />
+    <meta name="twitter:title" content="zkWarsaw Day" />
+    <meta name="twitter:description"
+        content="Warsaw-based community around zero-knowledge proofs. Running events with lectures and workshops for researchers, hackers, and builders. ZKP!" />
+    <meta name="twitter:image" content="https://zkwarsaw.dev/img/twitter-logo@2x.png" />
 
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Oxanium:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/szd0ivc.css" />
 
-    <!-- Google tag (gtag.js) -->
-    <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-Y0H3CQC7NR"
-    ></script>
-    <script>
-        window.dataLayer = window.dataLayer || []
-        function gtag() {
-            dataLayer.push(arguments)
-        }
-        gtag('js', new Date())
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
 
-        gtag('config', 'G-Y0H3CQC7NR')
-    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0H3CQC7NR"></script>
+<script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+        dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
 
-    <body class="font-oxanium">
-        <div
-            id="mainDIV"
-            class="bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden"
-        >
-            <header class="bg-black/40">
-                <div
-                    class="max-w-[1200px] mx-auto flex items-center justify-between px-5 py-7 lg:py-4"
-                >
-                    <!-- <a class="block" href="#"> -->
-                    <a class="block cursor-pointer" href="index.html">
-                        <img
-                            class="w-44 lg:w-auto"
-                            src="img/logo.svg"
-                            alt="logo"
-                        />
+    gtag('config', 'G-Y0H3CQC7NR')
+</script>
+
+<body class="font-oxanium">
+    <div id="mainDIV" class="bg-hero-bg bg-cover bg-no-repeat bg-center overflow-hidden">
+        <header class="bg-black/40">
+            <div class="max-w-[1200px] mx-auto flex items-center justify-between px-5 py-7 lg:py-4">
+                <!-- <a class="block" href="#"> -->
+                <a class="block cursor-pointer" href="/">
+                    <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo" />
+                </a>
+
+                <div class="hidden md:flex items-center text-white text-lg gap-6">
+                    <!-- <a class="block lg:hover:text-brand-green transition ease-linear" href="https://www.zkwarsaw.dev/" target="_blank">Meetups</a> -->
+                    <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
+
+                    <a id="mainBTN" href="/"
+                        class="block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full">
+                        zkWarsaw Day
                     </a>
 
-                    <div
-                        class="hidden md:flex items-center text-white text-lg gap-6"
-                    >
-                        <!-- <a class="block lg:hover:text-brand-green transition ease-linear" href="https://www.zkwarsaw.dev/" target="_blank">Meetups</a> -->
-                        <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
-
-                        <a
-                            id="mainBTN"
-                            href="index.html"
-                            class="block bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full"
-                        >
-                            zkWarsaw Day
-                        </a>
-
-                        <a
-                            id="meetupsBTN"
-                            href="meetups.html"
-                            class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full"
-                        >
-                            Meetups
-                        </a>
-                    </div>
-
-                    <!-- hamburger btn -->
-                    <div class="md:hidden">
-                        <button class="navbar-burger">
-                            <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path d="M3 17H21V15H3V17Z" fill="white" />
-                                <path d="M3 9H21V7H3V9Z" fill="white" />
-                            </svg>
-                        </button>
-                    </div>
+                    <a id="meetupsBTN" href="meetups.html"
+                        class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full">
+                        Meetups
+                    </a>
                 </div>
-            </header>
 
-            <!-- mobile menu -->
-
-            <div class="navbar-menu relative z-50 hidden">
-                <div
-                    class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
-                ></div>
-                <nav
-                    class="fixed top-0 right-0 bottom-0 flex flex-col w-4/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
-                >
-                    <div class="flex items-center mb-8">
-                        <a
-                            class="mr-auto text-3xl font-bold leading-none"
-                            href="#"
-                        >
-                            <img
-                                class="w-44 lg:w-auto"
-                                src="img/logo.svg"
-                                alt="logo"
-                            />
-                        </a>
-                        <button class="navbar-close">
-                            <svg
-                                class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M6 18L18 6M6 6l12 12"
-                                ></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="flex justify-center">
-                        <ul>
-                            <li class="mb-1">
-                                <a
-                                    id="mainBTN"
-                                    href="index.html"
-                                    class="navbar-close block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full"
-                                >
-                                    zkWarsaw Day
-                                </a>
-                            </li>
-                            <li class="mb-1">
-                                <a
-                                    id="meetupsBTN"
-                                    href="meetups.html"
-                                    class="navbar-close block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full"
-                                >
-                                    Meetups
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="mt-auto">
-                        <p class="my-4 text-xs text-center text-gray-400">
-                            <span>Copyright © 2023</span>
-                        </p>
-                    </div>
-                </nav>
+                <!-- hamburger btn -->
+                <div class="md:hidden">
+                    <button class="navbar-burger">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 17H21V15H3V17Z" fill="white" />
+                            <path d="M3 9H21V7H3V9Z" fill="white" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <!-- hero -->
-            <section
-                class="max-w-3xl mx-auto space-y-6 px-2 sm:px-5 pt-28 lg:pt-36 pb-52 lg:pb-60"
-            >
-                <div>
-                    <h1
-                        class="text-5xl md:text-6xl lg:text-7xl text-center font-semibold"
-                    >
-                        zkWarsaw Day
-                    </h1>
-                    <p
-                        class="text-center font-semibold text-lg md:text-3xl ld:text-4xl"
-                    >
-                        Supported by
-                        <span class="font-['etna']"> ETHWARSAW </span>
+        </header>
+
+        <!-- mobile menu -->
+
+        <div class="navbar-menu relative z-50 hidden">
+            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+            <nav
+                class="fixed top-0 right-0 bottom-0 flex flex-col w-4/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+                <div class="flex items-center mb-8">
+                    <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                        <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo" />
+                    </a>
+                    <button class="navbar-close">
+                        <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex justify-center">
+                    <ul>
+                        <li class="mb-1">
+                            <a id="mainBTN" href="/"
+                                class="navbar-close block bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full">
+                                zkWarsaw Day
+                            </a>
+                        </li>
+                        <li class="mb-1">
+                            <a id="meetupsBTN" href="meetups.html"
+                                class="navbar-close block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full">
+                                Meetups
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-auto">
+                    <p class="my-4 text-xs text-center text-gray-400">
+                        <span>Copyright © 2023</span>
                     </p>
                 </div>
-
-                <div class="flex justify-center">
-                    <h2
-                        class="inline-block text-white text-3xl lg:text-4xl font-medium bg-brand-sky-blue px-5 p-2 rounded-lg"
-                    >
-                        Warsaw, 29 Aug 2023
-                    </h2>
-                </div>
-
-                <div class="flex items-center justify-center gap-3 lg:gap-4">
-                    <a
-                        class="inline-block lg:w-56 lg:text-lg text-black text-center bg-brand-green rounded-full lg:hover:scale-110 transition-all ease-linear py-4 px-8"
-                        href="https://pretix.eu/zkwarsaw.dev/day/"
-                        target="_blank"
-                        >Tickets</a
-                    >
-                </div>
-            </section>
+            </nav>
         </div>
-        <section id="main-content">
-            <!-- community -->
-            <section
-                class="bg-waves-bg aspect-video w-full bg-repeat bg-center bg-cover p-200"
-            >
-                <!-- <div class="max-w-4xl mx-auto py-16 md:py-24 lg:py-36 px-5">
+        <!-- hero -->
+        <section class="max-w-3xl mx-auto space-y-6 px-2 sm:px-5 pt-28 lg:pt-36 pb-52 lg:pb-60">
+            <div>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl text-center font-semibold">
+                    zkWarsaw Day
+                </h1>
+                <p class="text-center font-semibold text-lg md:text-3xl ld:text-4xl">
+                    Supported by
+                    <span class="font-['etna']"> ETHWARSAW </span>
+                </p>
+            </div>
+
+            <div class="flex justify-center">
+                <h2
+                    class="inline-block text-white text-3xl lg:text-4xl font-medium bg-brand-sky-blue px-5 p-2 rounded-lg">
+                    Warsaw, 29 Aug 2023
+                </h2>
+            </div>
+
+            <div class="flex items-center justify-center gap-3 lg:gap-4">
+                <a class="inline-block lg:w-56 lg:text-lg text-black text-center bg-brand-green rounded-full lg:hover:scale-110 transition-all ease-linear py-4 px-8"
+                    href="https://pretix.eu/zkwarsaw.dev/day/" target="_blank">Tickets</a>
+            </div>
+        </section>
+    </div>
+    <section id="main-content">
+        <!-- community -->
+        <section class="bg-waves-bg aspect-video w-full bg-repeat bg-center bg-cover p-200">
+            <!-- <div class="max-w-4xl mx-auto py-16 md:py-24 lg:py-36 px-5">
                     <h3 class="text-4xl lg:text-5xl text-center text-white">
                         Warsaw-based
                         <span class="text-brand-green"
@@ -258,104 +168,73 @@
                     </h3>
                 </div> -->
 
-                <!-- pb-8 pt-6 md:pt-28 -->
+            <!-- pb-8 pt-6 md:pt-28 -->
+            <div class="flex justify-center flex-col py-10 md:py-12 lg:py-16 px-5">
+                <div class="max-w-4xl mx-auto pb-4 md:pb-6 lg:pb-10 px-5">
+                    <h3 class="text-4xl lg:text-5xl text-center text-white">
+                        One-day event for ZKP researchers, hackers, and builders. Learn about zero-knowledge proofs through
+                        laser-focussed lectures.
+                    </h3>
+                </div>
                 <div
-                    class="flex justify-center flex-col py-10 md:py-12 lg:py-16 px-5"
-                >
-                    <div class="max-w-4xl mx-auto pb-4 md:pb-6 lg:pb-10 px-5">
-                        <h3 class="text-4xl lg:text-5xl text-center text-white">
-                            Event for ZKP researchers, hackers, and builders.
-                            Learn all about zero-knowledge proofs through three
-                            focussed blocks of lectures and workshops.
-                        </h3>
-                    </div>
-                    <div
-                        class="grid grid-cols-1 md:grid-cols-3 pt-6 gap-6 lg:gap-10 max-[350px]:mx-0 max-[550px]:mx-12 mx-40 md:mx-auto"
-                    >
-                        <h2
-                            class="inline-block text-center text-black text-3xl lg:text-4xl font-medium bg-brand-green px-5 p-2 rounded-lg"
-                        >
-                            BEGINNER
-                        </h2>
-                        <h2
-                            class="inline-block text-center text-black text-3xl lg:text-4xl font-medium bg-[#1CDFFC] px-5 p-2 rounded-lg"
-                        >
-                            TECH
-                        </h2>
-                        <h2
-                            class="inline-block text-black text-center text-3xl lg:text-4xl font-medium bg-[#009CFF] px-5 p-2 rounded-lg"
-                        >
-                            MATH
-                        </h2>
+                    class="grid grid-cols-1 md:grid-cols-3 pt-6 gap-6 lg:gap-10 max-[350px]:mx-0 max-[550px]:mx-12 mx-40 md:mx-auto">
+                    <h2
+                        class="inline-block text-center text-black text-3xl lg:text-4xl font-medium bg-brand-green px-5 p-2 rounded-lg">
+                        BEGINNER
+                    </h2>
+                    <h2
+                        class="inline-block text-center text-black text-3xl lg:text-4xl font-medium bg-[#1CDFFC] px-5 p-2 rounded-lg">
+                        TECH
+                    </h2>
+                    <h2
+                        class="inline-block text-black text-center text-3xl lg:text-4xl font-medium bg-[#009CFF] px-5 p-2 rounded-lg">
+                        MATH
+                    </h2>
+                </div>
+            </div>
+
+            <h3 class="text-5xl lg:text-6xl text-center text-white pt-20" id="sponsors">
+                Gold Sponsor
+            </h3>
+
+            <div class="flex justify-center">
+                <div class="grid grid-cols-1 w-4/5">
+                    <div class="w-3/4 md:w-2/6 mx-auto py-16">
+                        <a href="https://scroll.io/" target="_blank" class="">
+                            <div class="flex justify-center">
+                                <img class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
+                                    src="img/scroll.svg" alt="scroll" />
+                            </div>
+                        </a>
                     </div>
                 </div>
+            </div>
+            <h3 class="text-5xl lg:text-6xl text-center text-white">
+                Silver Sponsors
+            </h3>
 
-                <h3
-                    class="text-5xl lg:text-6xl text-center text-white pt-20"
-                    id="sponsors"
-                >
-                    Gold Sponsor
-                </h3>
-
-                <div class="flex justify-center">
-                    <div class="grid grid-cols-1 w-4/5">
-                        <div class="w-3/4 md:w-2/6 mx-auto py-16">
-                            <a
-                                href="https://scroll.io/"
-                                target="_blank"
-                                class=""
-                            >
-                                <div class="flex justify-center">
-                                    <img
-                                        class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
-                                        src="img/scroll.svg"
-                                        alt="scroll"
-                                    />
-                                </div>
-                            </a>
-                        </div>
+            <div class="flex justify-center">
+                <div class="grid grid-cols-1 w-4/5">
+                    <div class="w-3/4 md:w-2/6 mx-auto py-8">
+                        <a href="https://www.herodotus.dev/" target="_blank" class="">
+                            <div class="flex justify-center">
+                                <img class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
+                                    src="img/Herodotus_Blue_Full_Text_Logo.svg" alt="Herodotus" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-3/4 md:w-2/6 mx-auto pt-2">
+                        <a href="https://zksync.io/" target="_blank" class="">
+                            <div class="flex justify-center">
+                                <img class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
+                                    src="img/full_logo_zksync-black.svg" alt="zkSync" />
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <h3 class="text-5xl lg:text-6xl text-center text-white">
-                    Silver Sponsors
-                </h3>
-
-                <div class="flex justify-center">
-                    <div class="grid grid-cols-1 w-4/5">
-                        <div class="w-3/4 md:w-2/6 mx-auto py-8">
-                            <a
-                                href="https://www.herodotus.dev/"
-                                target="_blank"
-                                class=""
-                            >
-                                <div class="flex justify-center">
-                                    <img
-                                        class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
-                                        src="img/Herodotus_Blue_Full_Text_Logo.svg"
-                                        alt="Herodotus"
-                                    />
-                                </div>
-                            </a>
-                        </div>
-                        <div class="w-3/4 md:w-2/6 mx-auto pt-2">
-                            <a
-                                href="https://zksync.io/"
-                                target="_blank"
-                                class=""
-                            >
-                                <div class="flex justify-center">
-                                    <img
-                                        class="border-2 border-[#02DA49] p-8 md:p-8 lg:p-14 rounded-lg bg-white hover:scale-110 transition-all ease-linear transition ease-in-out delay-125 grayscale-0 md:grayscale-40 md:hover:grayscale-0"
-                                        src="img/full_logo_zksync-black.svg"
-                                        alt="zkSync"
-                                    />
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--
+            </div>
+        </section>
+        <!--
 
 
       <div class="max-w-7xl mx-auto lg:grid grid-cols-2 items-start gap-8 xl:gap-16 lg:px-5 pb-16 lg:pb-28">
@@ -529,8 +408,8 @@
   </section>
   -->
 
-            <!-- schedule -->
-            <!--             
+        <!-- schedule -->
+        <!--
   <section id="schedule" class="max-w-[720px] mx-auto px-5 py-16 lg:pt-20 lg:pb-28">
     <h3 class="text-2xl md:text-center pb-7 lg:pb-14"><span class="font-bold">Schedule</span> 29 Aug 2023</h3>
 
@@ -675,770 +554,1429 @@
     </div>
     -->
 
-            <section
-                class="bg-waves-bg-upsd p-12 w-full bg-repeat bg-center bg-cover p-200"
-            >
-                <!-- Speakers -->
-                <div class="max-w-7xl mx-auto" id="speakers">
-                    <div id="speaker" class="pt-12 xl:pt-20 px-5 lg:px-0">
-                        <div class="flex items-center flex-col justify-between">
-                            <h3
-                                class="text-5xl lg:text-6xl text-center text-white mb-10"
-                            >
-                                Confirmed Speakers
-                            </h3>
+        <section class="bg-waves-bg-upsd p-12 w-full bg-repeat bg-center bg-cover p-200">
+            <!-- Speakers -->
+            <div class="max-w-7xl mx-auto" id="speakers">
+                <div id="speaker" class="pt-12 xl:pt-20 px-5 lg:px-0">
+                    <div class="flex items-center flex-col justify-between">
+                        <h3 class="text-5xl lg:text-6xl text-center text-white mb-10">
+                            Confirmed Speakers
+                        </h3>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-y-16 gap-x-10 xl:gap-x-12">
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/0xmarcello" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/0xmarcello.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                0xmarcello
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Herodotus
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/0xmarcello"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                        <div
-                            class="grid grid-cols-1 sm:grid-cols-3 gap-y-16 gap-x-10 xl:gap-x-12"
-                        >
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/0xmarcello"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/0xmarcello.jpeg"
-                                        alt="avatar"
-                                    />
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/ahmad_afuni" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/ahmad_afuni.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Ahmad Afuni
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Aragon
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/ahmad_afuni"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    0xmarcello
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Herodotus
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/0xmarcello"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/aszepieniec"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/alan.jpg"
-                                        alt="avatar"
-                                    />
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/aszepieniec" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/alan.jpg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Alan Szepieniec
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Neptune
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/aszepieniec"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Alan Szepieniec
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Neptune
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/aszepieniec"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/rel_zeta_tech"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/ariel.jpeg"
-                                        alt="avatar"
-                                    />
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/rel_zeta_tech" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/ariel.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Ariel Gabizon
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Zeta Function Technologies
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/rel_zeta_tech"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Ariel Gabizon
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Zeta Function Technologies
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/rel_zeta_tech"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/zkLumi"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/lumi.png"
-                                        alt="avatar"
-                                    />
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/stskeeps" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/carsten_munk.png" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Carsten Munk
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Cartesi
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/stskeeps"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Daniel Lumi
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Independent Researcher
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/zkLumi"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/zkLumi" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/lumi.png" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Daniel Lumi
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Independent Researcher
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/zkLumi"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-                            <div
-                                class="space-y-2 flex flex-col justify-between items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/DCbuild3r"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/dcbuilder.jpeg"
-                                        alt="avatar"
-                                    />
+                        <div class="space-y-2 flex flex-col justify-between items-center">
+                            <a href="https://twitter.com/DCbuild3r" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/dcbuilder.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                DCbuild3r <br />
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Worldcoin
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/DCbuild3r"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    DCbuild3r <br />
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Worldcoin
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/DCbuild3r"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/Jacek_Czarnecki"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/jacek_czarnecki.png"
-                                        alt="avatar"
-                                    />
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/Jacek_Czarnecki" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/jacek_czarnecki.png" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Jacek Czarnecki
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                DAI Foundation
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/Jacek_Czarnecki"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Jacek Czarnecki
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    DAI Foundation
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/Jacek_Czarnecki"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/josefabregab" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/jose_fabrega.jpg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Jose Fabrega
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Metis
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/josefabregab"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
 
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/goerlibot"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/marcusW.png"
-                                        alt="avatar"
-                                    />
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/goerlibot" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/marcusW.png" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Marcus Wentz
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Taiko
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/goerlibot"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
                                 </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Marcus Wentz
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Taiko
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/goerlibot"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
                             </div>
+                        </div>
 
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/mmkostrzewa" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/marcin_kostrzewa.jpg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Marcin Kostrzewa
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                reilabs
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/mmkostrzewa"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/chfast" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/Pawel_Bylic.jpg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Paweł Bylica
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Ethereum Fundation
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/chfast"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/PiotrSzlachciak" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/PiotrSzlachciak.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Piotr Szlachciak
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                L2BEAT
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/PiotrSzlachciak"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/rodiazet" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/rodiazet.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Radosław Zagórowicz
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Ethereum Fundation, imapp
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/rodiazet"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/vanderkriek" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/thibaut_schaeffer.jpeg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Thibaut Schaeffer
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Powdrlabs
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/vanderkriek"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="space-y-2 flex flex-col justify-center items-center">
+                            <a href="https://twitter.com/toghrulmaharram" target="_blank">
+                                <img class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                    src="img/tog.jpg" alt="avatar" />
+                            </a>
+                            <p class="font-bold text-xl text-white text-center pt-4">
+                                Toghrul Maharramov
+                            </p>
+                            <p class="text-base text-center text-white font-medium">
+                                Scroll
+                            </p>
+                            <div class="flex items-center justify-center text-brand-green gap-2">
+                                <a href="https://twitter.com/toghrulmaharram"
+                                    class="lg:hover:scale-125 transition-all ease-linear" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#06ABF2"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black">
+            <!-- schedule -->
+
+            <!-- #CBFFD3 -->
+            <!-- #EDFFF1 -->
+            <section id="schedule" class="max-w-[1200px] md:w-[720px] mx-auto px-5">
+                <h3 class="text-5xl lg:text-6xl text-center text-white">
+Schedule
+                </h3>
+                    <h4 class="text-2xl text-center pb-7 lg:pb-14 text-white font-bold">29 Aug 2023</h4>
+                <div>
+                    <div class="md:flex items-start bg-[#CBFFD3] gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            09:00 - 09:30
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl"
                             >
-                                <a
-                                    href="https://twitter.com/mmkostrzewa"
-                                    target="_blank"
-                                >
+                                Registration
+                            </h5>
+                            <p class="">
+                                Coffee and breakfast will be waiting for you - to get your day started!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            09:30 - 09:35
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl pb-2"
+                            >
+                                Opening
+                            </h5>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex">
                                     <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/marcin_kostrzewa.jpg"
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/avatar.png"
                                         alt="avatar"
                                     />
-                                </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Marcin Kostrzewa
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    reilabs
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/mmkostrzewa"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
+
+                                    <div class="flex items-center">
+                                        <a class="text-sm pl-2" href="https://twitter.com/zkMarek" target="_blank">
+                                            <span class="font-bold"
+                                                >Marek Kirejczyk</span
+                                            >
+                                            <span
+                                                class="text-brand-sky-blue"
+                                                > zkMarek</span
+                                            >
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/chfast"
-                                    target="_blank"
-                                >
+                                <div class="flex">
                                     <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
-                                        src="img/Pawel_Bylic.jpg"
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/orest.jpg"
                                         alt="avatar"
                                     />
-                                </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Paweł Bylica
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Ethereum Fundation
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/chfast"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
-                                    </a>
+                                    <div class="flex items-center">
+                                        <a class="text-sm pl-2" href="https://twitter.com/OrestTa" target="_blank">
+                                            <span class="font-bold"
+                                                >Orest Tarasiuk</span
+                                            >
+                                            <span
+                                                class="text-brand-sky-blue"
+                                                > Scroll</span
+                                            >
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/PiotrSzlachciak"
-                                    target="_blank"
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            09:40 - 09:55
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkBeginner
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
                                 >
+                                Key derivation in StarkEx
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Because StarkEx uses the Stark curve for cryptography, regular Ethereum ECDSA no longer works. We'll dive deep into how StarkWare and its clients solved this problem in StarkEx deployments.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
                                     <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                        class="w-6 h-6 rounded-full object-cover"
                                         src="img/PiotrSzlachciak.jpeg"
                                         alt="avatar"
                                     />
-                                </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Piotr Szlachciak
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    L2BEAT
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/PiotrSzlachciak"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
+                                    <a class="text-sm pl-2" href="https://twitter.com/PiotrSzlachciak" target="_blank">
+                                        <span class="font-bold"
+                                            >Piotr Szlachciak</span
                                         >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
+                                        <span class="text-brand-sky-blue"
+                                            > L2BEAT</span
+                                        >
                                     </a>
                                 </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/rodiazet"
-                                    target="_blank"
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            10:00 - 10:20
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkBeginner
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
                                 >
+                                ZK and law for devs
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    I will highlight the legal challenges of using ZK tech by devs. Privacy, scalability, security, and data integrity achieved with ZK proofs will generate legal conundrums that should be well understood before implementing particular solutions.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
                                     <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/jacek_czarnecki.png"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/Jacek_Czarnecki" target="_blank">
+                                        <span class="font-bold"
+                                            >Jacek Czarnecki</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > DAI Foundation</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            10:25 - 10:40
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkBeginner
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                ZKM: Turning Ethereum into the global settlement layer
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Presenting our zkVM and its potential role in making Ethereum the global settlement layer. What does it mean for Ethereum to be the global settlement layer?
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/jose_fabrega.jpg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/josefabregab" target="_blank">
+                                        <span class="font-bold"
+                                            >Jose Fabrega</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Metis</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="md:flex items-start bg-brand-sky-blue gap-7 p-5"
+                    >
+                        <div class="text-sm shrink-0 pb-2 md:pt-1 my-auto">
+                            10:45 - 10:55
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl py-2"
+                            >
+                                Break
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            11:00 - 11:20
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Storage Proofs
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    How validity proofs combined with storage proofs unlock the true power of onchain vms.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/0xmarcello.jpeg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/0xmarcello" target="_blank">
+                                        <span class="font-bold"
+                                            >Marcelo</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Herodotus</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            11:25 - 11:45
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Putting the "Proofs" in "ZK Proofs": Formal
+                                verification of arithmetic circuits
+                                </h5>
+
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Writing arithmetic circuits for ZK proofs poses unique challenges for ensuring correctness. The style of building them is foreign to many developers, both in program structure and data representation. At the same time, their correctness is paramount to the security of many protocols. This talk will present some applications of formal verification tools for improving security of arithmetic circuits.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/marcin_kostrzewa.jpg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/mmkostrzewa" target="_blank">
+                                        <span class="font-bold"
+                                            >Marcin Kostrzewa</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Reilabs</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            11:50 - 12:10
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                ZK: Scaling ETH "infinitely" without UX & liquidity fragmentation
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    By harnessing ZK, common bridges, shared sequencers & other cutting edge advancements, we can scale Ethereum using L2s & L3s while maintaining atomic composability and user experience, and avoiding fragmenting liquidity. Join us as we unlock the potential of Ethereum and reshape the blockchain landscape.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/lumi.png"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/zkLumi" target="_blank">
+                                        <span class="font-bold"
+                                            >Daniel Lumi</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Independent Researcher</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            12:15 - 12:30
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                                   <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2"
+                                >
+                                Running Linux in ZK
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Presenting the work around running 64-bit RISC-V Linux inside a deterministic Cartesi Machine inside RiscZero proofs.
+
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/carsten_munk.png"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/stskeeps" target="_blank">
+                                        <span class="font-bold"
+                                            >Carsten Munk</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Cartesi</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="md:flex items-start bg-brand-sky-blue gap-7 p-5"
+                    >
+                        <div class="text-sm shrink-0 pb-2 md:pt-1 my-auto">
+                            12:35 - 13:15
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl py-2"
+                            >
+                                Lunch break
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            13:20 - 13:50
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkMath
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2"
+                                >
+                                Recent advances in pairing-based SNARKs
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    We explain ideas from the past year and a half leveraging pairings to speed up SNARK provers; especially in the context of lookup protocols.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/ariel.jpeg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/rel_zeta_tech" target="_blank">
+                                        <span class="font-bold"
+                                            >Ariel Gabizon</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Zeta Function
+                                            Technologies</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            13:55 - 14:15
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkMath
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Tip5: A hash function optimized for recursive STARKs
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    In the context of recursive STARKs, standard hash function such as SHA3 and Blake3 are too expensive to arithmetize; and arithmetization-friendly hash functions like Rescue and Poseidon are too slow when evaluated on a CPU. Tip5 occupies the golden middle: it is somewhat arithmetization-friendly, but its design and performance are nonetheless more similar to standard hash functions than arithmetization-friendly ones.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/alan.jpg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/aszepieniec" target="_blank">
+                                        <span class="font-bold"
+                                            >Alan Szepieniec</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Neptune</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            14:20 - 14:40
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkMath
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Halo2 applied to Ethereum ZK Rollup Equivalence
+
+                                </h5>
+                    
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Learn about zero knowledge rollup and Halo2 development.
+
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/marcusW.png"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/goerlibot" target="_blank">
+                                        <span class="font-bold"
+                                            >Marcus Wentz</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Taiko</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            14:45 - 15:00
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                                      
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Zero-knowledge proof-based onchain private
+                                voting
+
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    We describe an approach to onchain NFT-based private voting leveraging ZK-verified storage proofs. This is joint work with Aztec as part of Nouns DAO's private voting research sprint.
+
+                                </p>
+                            </details>
+   
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/ahmad_afuni.jpeg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/ahmad_afuni" target="_blank">
+                                        <span class="font-bold"
+                                            >Ahmad Afuni</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Aragon</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="md:flex items-start bg-brand-sky-blue gap-7 p-5"
+                    >
+                        <div class="text-sm shrink-0 pb-2 md:pt-1 my-auto">
+                            15:05 - 15:15
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl py-2"
+                            >
+                                Break
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            15:20 - 15:40
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Evmmax: EVM modular arithmetic extension implemented in evmone
+                                </h5>
+
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    This EIP proposes the addition of new optimized modular addition, subtraction and multiplication opcodes to the EVM. These support odd moduli up to 4096 bits in size. We will talk about the initial implementation of evmmax in the evmone.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
                                         src="img/rodiazet.jpeg"
                                         alt="avatar"
                                     />
-                                </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Radosław Zagórowicz
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Ethereum Fundation, imapp
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/rodiazet"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
+                                    <a class="text-sm pl-2" href="https://twitter.com/rodiazet" target="_blank">
+                                        <span class="font-bold"
+                                            >Radosław Zagorowicz</span
                                         >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
+                                        <span class="text-brand-sky-blue"
+                                            > Ethereum Fundation,
+                                            imapp</span
+                                        >
+                                    </a>
+                                </div>
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/Pawel_Bylic.jpg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/chfast" target="_blank">
+                                        <span class="font-bold"
+                                            >Paweł Bylica</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Ethereum Fundation</span
+                                        >
                                     </a>
                                 </div>
                             </div>
-                            <div
-                                class="space-y-2 flex flex-col justify-center items-center"
-                            >
-                                <a
-                                    href="https://twitter.com/toghrulmaharram"
-                                    target="_blank"
+                        </div>
+                    </div>
+
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            15:45 - 16:15
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
                                 >
+                     
+                                A deep dive into zkML
+                                </h5>
+              
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    Exploring the zkML landscape: Learn what approches, tools and applications are currently prevalent in the space and what challenges they are facing.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
                                     <img
-                                        class="w-32 h-32 xl:w-40 xl:h-40 rounded-full object-cover mx-auto lg:hover:scale-110 transition-all ease-linear"
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/dcbuilder.jpeg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/DCbuild3r" target="_blank">
+                                        <span class="font-bold"
+                                            >DCbuild3r</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Worldcoin</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            16:20 - 16:40
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+                            <details class="group" close>
+                                <summary class="flex items-start font-medium cursor-pointer list-none">
+                                    <span class="transition group-open:rotate-180">
+                                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                                      </span>
+                                    <h5
+                                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                                >
+                                Parallelizing proving in rollups
+                                </h5>
+                                </summary>
+                                <p class="group-open:animate-fadeIn pb-2">
+                                    
+In zero-knowledge rollups, Provers perform a vital role of computing the validity proofs responsible for enforcing the correctness of the zkRU. However, since proof generation times are non-negligible, sequential proving results in limited throughput of the protocol. Parallelization solves the aforementioned issue by assigning different Provers with the right to compute the proofs in parallel. The talk will outline the rationale behind parallelization as well as the concrete details of how parallelization will work in practice.
+                                </p>
+                            </details>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
                                         src="img/tog.jpg"
                                         alt="avatar"
                                     />
-                                </a>
-                                <p
-                                    class="font-bold text-xl text-white text-center pt-4"
-                                >
-                                    Toghrul Maharramov
-                                </p>
-                                <p
-                                    class="text-base text-center text-white font-medium"
-                                >
-                                    Scroll
-                                </p>
-                                <div
-                                    class="flex items-center justify-center text-brand-green gap-2"
-                                >
-                                    <a
-                                        href="https://twitter.com/toghrulmaharram"
-                                        class="lg:hover:scale-125 transition-all ease-linear"
-                                        target="_blank"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="18"
-                                            height="18"
-                                            fill="#06ABF2"
-                                            viewBox="0 0 16 16"
+                                    <a class="text-sm pl-2" href="https://twitter.com/toghrulmaharram" target="_blank">
+                                        <span class="font-bold"
+                                            >Toghrul Maharramov</span
                                         >
-                                            <path
-                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                            />
-                                        </svg>
+                                        <span class="text-brand-sky-blue"
+                                            > Scroll</span
+                                        >
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            16:45 - 17:05
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                zkTech
+                            </div>
+                        </div>
+
+                        <div>
+            <details class="group" close>
+                <summary class="flex items-start font-medium cursor-pointer list-none">
+                    <span class="transition group-open:rotate-180">
+                        <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+        </svg>
+                      </span>
+                    <h5
+                    class="font-semibold text-xl md:text-2xl pb-2 pl-2"
+                >
+                    Powdr: a modular stack for zkVMs
+                </h5>
+                </summary>
+                <p class="group-open:animate-fadeIn pb-2">
+                    We present powdr, an open source development stack for zkVMs. We go through some examples of VMs implementations in powdr and showcase the flexibility and performance of the framework as well as upcoming features.
+                </p>
+            </details>
+        
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/thibaut_schaeffer.jpeg"
+                                        alt="avatar"
+                                    />
+                                    <a class="text-sm pl-2" href="https://twitter.com/vanderkriek" target="_blank">
+                                        <span class="font-bold"
+                                            >Thibaut Schaeffer</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            > Powdrlabs</span
+                                        >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="md:flex items-start bg-white gap-7 p-5">
+                        <div class="text-sm shrink-0 pb-2 md:pt-1">
+                            ??:?? - ??:??
+                            <div class="text-sm shrink-0 pb-2 md:pt-1">
+                                Beginner/Tech/Math
+                            </div>
+                        </div>
+
+                        <div>
+                            <h5
+                                class="font-semibold text-xl md:text-2xl pb-2"
+                            >
+                                Title
+                            </h5>
+                            <div class="flex flex-row gap-6">
+                                <div class="flex items-center">
+                                    <img
+                                        class="w-6 h-6 rounded-full object-cover"
+                                        src="img/avatar.png"
+                                        alt="avatar"
+                                    />
+                                    <p class="text-sm pl-2">
+                                        <span class="font-bold"
+                                            >Speaker</span
+                                        >
+                                        <span class="text-brand-sky-blue"
+                                            >- Company</span
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
-            </section>
-            <!-- Venue map -->
-            <section class="bg-black pt-10" id="venue">
-                <div id="map" class="flex justify-center flex-col">
-                    <div class="flex justify-center flex-col px-10">
-                        <div
-                            class="flex justify-left bg-[#1f1f1f] rounded-t-lg py-6 opacity-100 pl-10"
-                        >
-                            <div class="flex flex-col">
-                                <h3 class="text-white">
-                                    Warsaw University of Technology,
-                                </h3>
-                                <a
-                                    href="https://goo.gl/maps/RgvsWTXd9bTRnQmd7"
-                                    target="_blank"
-                                    class="cursor-pointer"
-                                >
-                                    <div class="flex flex-row items-center">
-                                        <h5
-                                            class="text-brand-green lg:hover:scale-105 transition-all ease-linear"
-                                        >
-                                            PLAC POLITECHNIKI 1, 00-661 Warszawa
-                                        </h5>
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke-width="1.5"
-                                            stroke="currentColor"
-                                            class="hidden sm:block min-w-[16px] min-h-[16px] w-4 h-4 ml-2 lg:hover:scale-125 transition-all ease-linear stroke-brand-green"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                                            />
-                                        </svg>
-                                    </div>
+                <div
+                class="md:flex items-start bg-[#CBFFD3] gap-7 p-5"
+            >
+                <div class="text-sm shrink-0 pb-2 md:pt-1">
+                    17:05 - 17:10
+                </div>
+
+                <div>
+                    <h5
+                        class="font-semibold text-xl md:text-2xl"
+                    >
+                    Closing
+                    </h5>
+                    <div class="flex flex-row gap-6">
+                        <div class="flex">
+                            <img
+                                class="w-6 h-6 rounded-full object-cover"
+                                src="img/avatar.png"
+                                alt="avatar"
+                            />
+
+                            <div class="flex items-center">
+                                <a class="text-sm pl-2" href="https://twitter.com/zkMarek" target="_blank">
+                                    <span class="font-bold"
+                                        >Marek Kirejczyk</span
+                                    >
+                                    <span
+                                        class="text-brand-sky-blue"
+                                        > zkMarek</span
+                                    >
                                 </a>
                             </div>
                         </div>
-
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.1104921179501!2d21.006798238971587!3d52.22120283615737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce948b6cb17%3A0xcd3fd66f27c93aed!2sPolitechnika%20Warszawska!5e0!3m2!1spl!2spl!4v1690996924745!5m2!1spl!2spl"
-                            width="1400"
-                            height="380"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                            class="w-full rounded-b-lg"
-                        ></iframe>
-                    </div>
-                </div>
-            </section>
-            <section class="bg-black">
-                <div class="flex justify-center pt-12 gap-3 lg:gap-4 pb-12">
-                    <a
-                        class="inline-block lg:w-56 lg:text-lg text-black text-center bg-brand-green rounded-full lg:hover:scale-110 transition-all ease-linear py-4 px-8"
-                        href="https://pretix.eu/zkwarsaw.dev/day/"
-                        target="_blank"
-                        >Tickets</a
-                    >
-
-                    <a
-                        class="inline-block lg:w-56 lg:text-lg text-white text-center bg-[#002F4F]/80 rounded-full lg:hover:bg-[#002F4F] lg:hover:scale-110 transition-all ease-linear py-4 px-8"
-                        href="https://scrollzkp.typeform.com/zkWarsawSponsor"
-                        target="_blank"
-                        >Become a Sponsor</a
-                    >
-                </div>
-            </section>
-        </section>
-
-        <footer class="bg-black">
-            <div
-                class="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between text-white px-5 py-8"
-            >
-                <a class="block" href="#">
-                    <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo" />
-                </a>
-
-                <!-- Modal -->
-                <div class="hidden" id="modal">
-                    <div
-                        class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
-                    ></div>
-
-                    <div class="fixed inset-0 z-10 overflow-y-auto">
-                        <div
-                            class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
-                        >
-                            <div
-                                class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg"
-                            >
-                                <div
-                                    class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4"
-                                >
-                                    <div class="sm:flex sm:items-start">
-                                        <div
-                                            class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left"
-                                        >
-                                            <div
-                                                class="flex flex-row justify-between pb-2"
-                                            >
-                                                <h2 class="text-gray-800">
-                                                    Media policy
-                                                </h2>
-
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    fill="none"
-                                                    viewBox="0 0 24 24"
-                                                    stroke-width="1.5"
-                                                    stroke="currentColor"
-                                                    class="w-4 h-4 cursor-pointer fill-current text-slate-500 hover:text-slate-900"
-                                                    onclick="hideModal()"
-                                                >
-                                                    <path
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
-                                                        d="M6 18L18 6M6 6l12 12"
-                                                    />
-                                                </svg>
-                                            </div>
-
-                                            <div class="mt-2">
-                                                <p
-                                                    class="text-sm text-gray-500"
-                                                >
-                                                    The subsequent terms and
-                                                    conditions pertain to all
-                                                    individuals participating in
-                                                    our in-person events.
-                                                    <br />
-                                                    Photography, Audio, and
-                                                    Video Recording
-                                                    <br />
-
-                                                    By attending the ZK Warsaw
-                                                    event, you explicitly
-                                                    acknowledge and consent that
-                                                    the event (or any segment
-                                                    thereof) may be subject to
-                                                    photographic or audiovisual
-                                                    recording by us or our
-                                                    partners. You agree to
-                                                    authorize us or any duly
-                                                    licensed third party, as per
-                                                    our discretion, to utilize,
-                                                    distribute, broadcast, or
-                                                    otherwise globally
-                                                    disseminate your likeness,
-                                                    name, voice, and statements
-                                                    perpetually through
-                                                    television, radio, film,
-                                                    newspapers, magazines, and
-                                                    any other existing or future
-                                                    media platforms, both prior
-                                                    to, during, and subsequent
-                                                    to the Conference, in any
-                                                    format, without
-                                                    necessitating any further
-                                                    consent or remuneration from
-                                                    you. This grant includes but
-                                                    is not limited to, the right
-                                                    to edit the media, the right
-                                                    to use the media (alone or
-                                                    with other information), and
-                                                    the right to allow others to
-                                                    use or distribute the media.
-                                                    Moreover, ZK Warsaw
-                                                    Conference cannot assume any
-                                                    liability for photographs,
-                                                    videos, or audio recordings
-                                                    taken by other event
-                                                    attendees. Should you have
-                                                    any inquiries concerning
-                                                    this policy, please do not
-                                                    hesitate to contact us at
-                                                    day@zkwarsaw.dev
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 justify-center"
-                                >
-                                    <button
-                                        type="button"
-                                        class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
-                                        onclick="hideModal()"
+                        <div class="flex">
+                            <img
+                                class="w-6 h-6 rounded-full object-cover"
+                                src="img/orest.jpg"
+                                alt="avatar"
+                            />
+                            <div class="flex items-center">
+                                <a class="text-sm pl-2" href="https://twitter.com/OrestTa" target="_blank">
+                                    <span class="font-bold"
+                                        >Orest Tarasiuk</span
                                     >
-                                        Got it!
-                                    </button>
-                                </div>
+                                    <span
+                                        class="text-brand-sky-blue"
+                                        > Scroll</span
+                                    >
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            </section>
+        </section>
+        <!-- Venue map -->
+        <section class="bg-black pt-10" id="venue">
+            <div id="map" class="flex justify-center flex-col">
+                <div class="flex justify-center flex-col px-10">
+                    <div class="flex justify-left bg-[#1f1f1f] rounded-t-lg py-6 opacity-100 pl-10">
+                        <div class="flex flex-col">
+                            <h3 class="text-white">
+                                Warsaw University of Technology,
+                            </h3>
+                            <a href="https://goo.gl/maps/RgvsWTXd9bTRnQmd7" target="_blank" class="cursor-pointer">
+                                <div class="flex flex-row items-center">
+                                    <h5 class="text-brand-green lg:hover:scale-105 transition-all ease-linear">
+                                        PLAC POLITECHNIKI 1, 00-661 Warszawa
+                                    </h5>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor"
+                                        class="hidden sm:block min-w-[16px] min-h-[16px] w-4 h-4 ml-2 lg:hover:scale-125 transition-all ease-linear stroke-brand-green">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
 
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1222.1104921179501!2d21.006798238971587!3d52.22120283615737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce948b6cb17%3A0xcd3fd66f27c93aed!2sPolitechnika%20Warszawska!5e0!3m2!1spl!2spl!4v1690996924745!5m2!1spl!2spl"
+                        width="1400" height="380" style="border: 0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="w-full rounded-b-lg"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black">
+            <div class="flex justify-center pt-12 gap-3 lg:gap-4 pb-12">
+                <a class="inline-block lg:w-56 lg:text-lg text-black text-center bg-brand-green rounded-full lg:hover:scale-110 transition-all ease-linear py-4 px-8"
+                    href="https://pretix.eu/zkwarsaw.dev/day/" target="_blank">Tickets</a>
+
+                <a class="inline-block lg:w-56 lg:text-lg text-white text-center bg-[#002F4F]/80 rounded-full lg:hover:bg-[#002F4F] lg:hover:scale-110 transition-all ease-linear py-4 px-8"
+                    href="https://scrollzkp.typeform.com/zkWarsawSponsor" target="_blank">Become a Sponsor</a>
+            </div>
+        </section>
+    </section>
+
+    <footer class="bg-black">
+        <div class="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between text-white px-5 py-8">
+            <a class="block" href="#">
+                <img class="w-44 lg:w-auto" src="img/logo.svg" alt="logo" />
+            </a>
+
+            <!-- Modal -->
+            <div class="hidden" id="modal">
+                <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+                <div class="fixed inset-0 z-10 overflow-y-auto">
+                    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                        <div
+                            class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                            <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                                <div class="sm:flex sm:items-start">
+                                    <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                                        <div class="flex flex-row justify-between pb-2">
+                                            <h2 class="text-gray-800">
+                                                Media policy
+                                            </h2>
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-4 h-4 cursor-pointer fill-current text-slate-500 hover:text-slate-900"
+                                                onclick="hideModal()">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </div>
+
+                                        <div class="mt-2">
+                                            <p class="text-sm text-gray-500">
+                                                The subsequent terms and
+                                                conditions pertain to all
+                                                individuals participating in
+                                                our in-person events.
+                                                <br />
+                                                Photography, Audio, and
+                                                Video Recording
+                                                <br />
+
+                                                By attending the ZK Warsaw
+                                                event, you explicitly
+                                                acknowledge and consent that
+                                                the event (or any segment
+                                                thereof) may be subject to
+                                                photographic or audiovisual
+                                                recording by us or our
+                                                partners. You agree to
+                                                authorize us or any duly
+                                                licensed third party, as per
+                                                our discretion, to utilize,
+                                                distribute, broadcast, or
+                                                otherwise globally
+                                                disseminate your likeness,
+                                                name, voice, and statements
+                                                perpetually through
+                                                television, radio, film,
+                                                newspapers, magazines, and
+                                                any other existing or future
+                                                media platforms, both prior
+                                                to, during, and subsequent
+                                                to the Conference, in any
+                                                format, without
+                                                necessitating any further
+                                                consent or remuneration from
+                                                you. This grant includes but
+                                                is not limited to, the right
+                                                to edit the media, the right
+                                                to use the media (alone or
+                                                with other information), and
+                                                the right to allow others to
+                                                use or distribute the media.
+                                                Moreover, ZK Warsaw
+                                                Conference cannot assume any
+                                                liability for photographs,
+                                                videos, or audio recordings
+                                                taken by other event
+                                                attendees. Should you have
+                                                any inquiries concerning
+                                                this policy, please do not
+                                                hesitate to contact us at
+                                                day@zkwarsaw.dev
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 justify-center">
+                                <button type="button"
+                                    class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                                    onclick="hideModal()">
+                                    Got it!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 <div
                     class="order-first sm:order-last flex max-[395px]:flex-col items-center gap-10 pb-14 sm:pb-0"
                 >
@@ -1540,58 +2078,61 @@
                         </a>
                     </div>
                 </div>
+
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <script>
-            // Burger menus
-            document.addEventListener('DOMContentLoaded', function () {
-                // open
-                const burger = document.querySelectorAll('.navbar-burger')
-                const menu = document.querySelectorAll('.navbar-menu')
+    <script>
+        // Burger menus
+        document.addEventListener('DOMContentLoaded', function () {
+            // open
+            const burger = document.querySelectorAll('.navbar-burger')
+            const menu = document.querySelectorAll('.navbar-menu')
 
-                if (burger.length && menu.length) {
-                    for (var i = 0; i < burger.length; i++) {
-                        burger[i].addEventListener('click', function () {
-                            for (var j = 0; j < menu.length; j++) {
-                                menu[j].classList.toggle('hidden')
-                            }
-                        })
-                    }
+            if (burger.length && menu.length) {
+                for (var i = 0; i < burger.length; i++) {
+                    burger[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden')
+                        }
+                    })
                 }
-
-                // close
-                const close = document.querySelectorAll('.navbar-close')
-                const backdrop = document.querySelectorAll('.navbar-backdrop')
-
-                if (close.length) {
-                    for (var i = 0; i < close.length; i++) {
-                        close[i].addEventListener('click', function () {
-                            for (var j = 0; j < menu.length; j++) {
-                                menu[j].classList.toggle('hidden')
-                            }
-                        })
-                    }
-                }
-
-                if (backdrop.length) {
-                    for (var i = 0; i < backdrop.length; i++) {
-                        backdrop[i].addEventListener('click', function () {
-                            for (var j = 0; j < menu.length; j++) {
-                                menu[j].classList.toggle('hidden')
-                            }
-                        })
-                    }
-                }
-            })
-
-            const modal = document.getElementById('modal')
-            function showModal() {
-                modal.style.display = 'block'
             }
-            function hideModal() {
-                modal.style.display = 'none'
+
+            // close
+            const close = document.querySelectorAll('.navbar-close')
+            const backdrop = document.querySelectorAll('.navbar-backdrop')
+
+            if (close.length) {
+                for (var i = 0; i < close.length; i++) {
+                    close[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden')
+                        }
+                    })
+                }
             }
-        </script>
-    </body>
+
+            if (backdrop.length) {
+                for (var i = 0; i < backdrop.length; i++) {
+                    backdrop[i].addEventListener('click', function () {
+                        for (var j = 0; j < menu.length; j++) {
+                            menu[j].classList.toggle('hidden')
+                        }
+                    })
+                }
+            }
+        })
+
+        const modal = document.getElementById('modal')
+        function showModal() {
+            modal.style.display = 'block'
+        }
+        function hideModal() {
+            modal.style.display = 'none'
+        }
+    </script>
+</body>
+
 </html>
