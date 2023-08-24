@@ -1691,3 +1691,6 @@ video {
     padding-top: 5rem;
   }
 }
+.\[\&\:\:-webkit-details-marker\]\:hidden::-webkit-details-marker {
+  display: none;
+}
