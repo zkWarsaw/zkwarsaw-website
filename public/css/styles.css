@@ -685,6 +685,9 @@ video {
 .w-1\/2 {
   width: 50%;
 }
+.w-\[80\%\] {
+  width: 80%;
+}
 .min-w-\[16px\] {
   min-width: 16px;
 }
@@ -1538,6 +1541,10 @@ video {
 
   .md\:w-\[720px\] {
     width: 720px;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-3 {
