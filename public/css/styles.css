@@ -1573,6 +1573,10 @@ video {
   .md\:w-full {
     width: 100%;
   }
+  
+  .md\:max-w-4xl {
+    max-width: 56rem;
+  }
 
   .md\:max-w-4xl {
     max-width: 56rem;
