@@ -476,6 +476,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.pointer-events-none {
+  pointer-events: none;
+}
 .fixed {
   position: fixed;
 }
@@ -716,6 +719,9 @@ video {
 }
 .gap-8 {
   gap: 2rem;
+}
+.gap-0 {
+  gap: 0px;
 }
 .gap-1 {
   gap: 0.25rem;
@@ -1153,6 +1159,12 @@ video {
 .opacity-50 {
   opacity: 0.5;
 }
+.opacity-70 {
+  opacity: 0.7;
+}
+.opacity-80 {
+  opacity: 0.8;
+}
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -1377,6 +1389,13 @@ video {
   .md\:w-2\/6 {
     width: 33.333333%;
   }
+  .md\:w-\[720px\] {
+    width: 720px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
 
   .md\:max-w-4xl {
     max-width: 56rem;
@@ -1574,6 +1593,11 @@ video {
 
   .lg\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
