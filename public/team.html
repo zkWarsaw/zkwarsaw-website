@@ -107,19 +107,17 @@
                         <!-- <a class="block lg:hover:text-brand-green transition ease-linear cursor-pointer" onclick="showMeetups()">Meetups</a> -->
 
                         <a
-                            id="mainBTN"
-                            href="./"
-                            class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full"
-                        >
-                            Meetups
-                        </a>
-
-                        <a
-                            id="meetupsBTN"
                             href="day.html"
                             class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full"
                         >
                             zkWarsaw Day
+                        </a>
+
+                        <a
+                            href="./"
+                            class="block bg-transparent hover:bg-brand-sky-blue text-white transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] rounded-full"
+                        >
+                            Meetups
                         </a>
                     </div>
 
@@ -182,7 +180,6 @@
                         <ul>
                             <li class="mb-1">
                                 <a
-                                    id="mainBTN"
                                     href="./"
                                     class="navbar-close block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full"
                                 >
@@ -191,7 +188,6 @@
                             </li>
                             <li class="mb-1">
                                 <a
-                                    id="meetupsBTN"
                                     href="day.html"
                                     class="navbar-close block bg-transparent hover:bg-brand-sky-blue text-black transition-all ease-linear py-4 px-8 border-2 border-[#06ABF2] text-center rounded-full w-full"
                                 >
@@ -582,36 +578,6 @@
                     }
                 }
             })
-
-            function showMeetups() {
-                const getMainContent = document.getElementById('main-content')
-                getMainContent.style.display = 'none'
-                document.getElementById('mainDIV').style.display = 'none'
-                document.getElementById('r-meetups').style.display = 'block'
-                document.getElementById('meetupsDIV').style.display = 'block'
-                document.querySelectorAll('#meetupsBTN').forEach((btn) => {
-                    btn.style.backgroundColor = '#06ABF2'
-                })
-                document.querySelectorAll('#mainBTN').forEach((btn) => {
-                    btn.style.backgroundColor = 'transparent'
-                })
-            }
-
-            function showMain() {
-                document.getElementById('r-meetups').style.display = 'none'
-                document.getElementById('meetupsDIV').style.display = 'none'
-                const getMainContent = document.getElementById('main-content')
-                getMainContent.style.display = 'block'
-                document.getElementById('mainDIV').style.display = 'block'
-                window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
-
-                document.querySelectorAll('#meetupsBTN').forEach((btn) => {
-                    btn.style.backgroundColor = 'transparent'
-                })
-                document.querySelectorAll('#mainBTN').forEach((btn) => {
-                    btn.style.backgroundColor = '#06ABF2'
-                })
-            }
 
             const modal = document.getElementById('modal')
             function showModal() {
