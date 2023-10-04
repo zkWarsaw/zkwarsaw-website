@@ -5,14 +5,16 @@
     "main": "index.js",
     "scripts": {
         "dev": "set TAILWIND_MODE=watch&postcss src/styles.css -o ./public/css/styles.css -w --verbose",
-        "build": "tailwindcss ./src/styles.css -o ./public/css/styles.css"
+        "build": "postcss tailwindcss ./src/styles.css -o ./public/css/styles.css"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "autoprefixer": "^10.4.16",
-        "postcss": "^8.4.31",
-        "tailwindcss": "^3.3.3"
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "postcss-cli": "^10.1.0",
+        "tailwindcss": "^3.3.2",
+        "postcss": "^8.4.25"
+
     }
 }
