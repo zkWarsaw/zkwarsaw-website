@@ -1,0 +1,5 @@
+{
+    "redirects": [
+        { "source": "/meetups.html", "destination": "/", "permanent": true }
+    ]
+}
