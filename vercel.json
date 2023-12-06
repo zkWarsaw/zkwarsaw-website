@@ -1,5 +1,6 @@
 {
     "redirects": [
+        { "source": "/index.html", "destination": "/", "permanent": true },
         { "source": "/meetups.html", "destination": "/", "permanent": true }
     ]
 }
