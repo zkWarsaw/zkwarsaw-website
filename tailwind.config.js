@@ -18,6 +18,7 @@ module.exports = {
                 'hero-bg': "url('../img/hero.png')",
                 'waves-bg': "url('../img/layered-waves-haikei.svg')",
                 'waves-bg-upsd': "url('../img/layered-waves-haikei-upsd.svg')",
+                'vs-bg-1': "url('../img/bg-1.png')",
             },
             grayscale: {
                 80: '80%',
